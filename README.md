@@ -2,6 +2,7 @@
 Custom AlertView with pop up keyboard 
 
 Demo:
+
 ![](https://i.imgur.com/CpnVmuA.gif)
 
 ## Why a custom AlertView is needed
