@@ -12,6 +12,11 @@
 		E09E662F229BB97F006833EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09E662D229BB97F006833EB /* Main.storyboard */; };
 		E09E6631229BB97F006833EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09E6630229BB97F006833EB /* Assets.xcassets */; };
 		E09E6634229BB97F006833EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09E6632229BB97F006833EB /* LaunchScreen.storyboard */; };
+		E09E663C229BBBB1006833EB /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E663B229BBBB1006833EB /* CustomAlertViewController.swift */; };
+		E09E663E229BBC3B006833EB /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E663D229BBC3B006833EB /* CustomTextField.swift */; };
+		E0CDFD71229BCEB10043CAF4 /* CustomAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CDFD6F229BCEB10043CAF4 /* CustomAlertController.swift */; };
+		E0CDFD72229BCEB10043CAF4 /* CustomAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CDFD70229BCEB10043CAF4 /* CustomAlertController.xib */; };
+		E0CDFD74229BD0D10043CAF4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CDFD73229BD0D10043CAF4 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		E09E6630229BB97F006833EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E09E6633229BB97F006833EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E09E6635229BB97F006833EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09E663B229BBBB1006833EB /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		E09E663D229BBC3B006833EB /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		E0CDFD6F229BCEB10043CAF4 /* CustomAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertController.swift; sourceTree = "<group>"; };
+		E0CDFD70229BCEB10043CAF4 /* CustomAlertController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAlertController.xib; sourceTree = "<group>"; };
+		E0CDFD73229BD0D10043CAF4 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 			children = (
 				E09E6629229BB97F006833EB /* AppDelegate.swift */,
 				E09E662B229BB97F006833EB /* ViewController.swift */,
+				E09E663B229BBBB1006833EB /* CustomAlertViewController.swift */,
+				E09E663D229BBC3B006833EB /* CustomTextField.swift */,
+				E0CDFD73229BD0D10043CAF4 /* CustomButton.swift */,
 				E09E662D229BB97F006833EB /* Main.storyboard */,
 				E09E6630229BB97F006833EB /* Assets.xcassets */,
 				E09E6632229BB97F006833EB /* LaunchScreen.storyboard */,
 				E09E6635229BB97F006833EB /* Info.plist */,
+				E0CDFD6F229BCEB10043CAF4 /* CustomAlertController.swift */,
+				E0CDFD70229BCEB10043CAF4 /* CustomAlertController.xib */,
 			);
 			path = AlertViewWithKeyboard;
 			sourceTree = "<group>";
@@ -123,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E09E6634229BB97F006833EB /* LaunchScreen.storyboard in Resources */,
+				E0CDFD72229BCEB10043CAF4 /* CustomAlertController.xib in Resources */,
 				E09E6631229BB97F006833EB /* Assets.xcassets in Resources */,
 				E09E662F229BB97F006833EB /* Main.storyboard in Resources */,
 			);
@@ -135,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0CDFD71229BCEB10043CAF4 /* CustomAlertController.swift in Sources */,
+				E09E663E229BBC3B006833EB /* CustomTextField.swift in Sources */,
+				E0CDFD74229BD0D10043CAF4 /* CustomButton.swift in Sources */,
 				E09E662C229BB97F006833EB /* ViewController.swift in Sources */,
 				E09E662A229BB97F006833EB /* AppDelegate.swift in Sources */,
+				E09E663C229BBBB1006833EB /* CustomAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
